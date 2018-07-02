@@ -1,4 +1,4 @@
-#Xinyang Wu
+#Xinyang Wu   
 In fact, the only difference between Ubuntu 16.04 and 18.04 is that two required modules: libpng12 and libgstream0.10 are not supported in Ubuntu 18.04, instead are libpng16 and libgstream1.0. You can just comment those two unsupported modules yourself in any scripts you want to run.
 
 
