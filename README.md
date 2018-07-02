@@ -1,3 +1,7 @@
+#Xinyang Wu
+In fact, the only difference between Ubuntu 16.04 and 18.04 is that two required modules: libpng12 and libgstream0.10 are not supported in Ubuntu 18.04, instead are libpng16 and libgstream1.0. You can just comment those two unsupported modules yourself in any scripts you want to run.
+
+
 # Unofficial Ubuntu 18.04 Support for OpenVINO™
 
 As of June 2018, OpenVINO™ only supports Ubuntu 16.04.3 LTS (64 bit), Windows 10 (64 bit) and CentOS 7.4 (64 bit). James Lim (@jameshi16) and I have modified the `InferenceEngineConfig.cmake` to allow OpenVINO™ to run on Ubuntu 18.04 without any issues.
